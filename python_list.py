@@ -282,7 +282,6 @@ while i < len(thislist):
     print(thislist[i])
     i = i + 1
 
-
     # Looping Using List Comprehension
     # List Comprehension offers the shortest syntax for looping through lists:
     # Example
@@ -290,8 +289,6 @@ while i < len(thislist):
 
 this_list = ["apple", "banana", "cherry"]
 [print(x) for x in this_list]
-
-
 
 # Python - List Comprehension
 # List Comprehension
@@ -305,17 +302,15 @@ fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist = []
 
 for x in fruits:
-  if "a" in x:
-    newlist.append(x)
+    if "a" in x:
+        newlist.append(x)
 print(newlist)
 
 # With list comprehension you can do all that with only one line of code:
 # Example
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
-newlist = [x for x in fruits if "a" in x]
-print(newlist)
-
-
+new_list = [x for x in fruits if "a" in x]
+print(new_list)
 
 # Python - List Methods
 # List Methods
