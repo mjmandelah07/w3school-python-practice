@@ -67,7 +67,7 @@ finally:
 # Example
 # Try to open and write to a file that is not writable:
 try:
-    f = open("demofile.txt")
+    f = open("demofile.txt.txt")
     try:
         f.write("Lorum Ipsum")
     except:
