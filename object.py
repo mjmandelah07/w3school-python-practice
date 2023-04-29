@@ -13,3 +13,6 @@ def faith(args): {
 def high (args): {
     print('education')
 }
+def hight (args): {
+    print('education')
+}
