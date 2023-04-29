@@ -5,3 +5,6 @@ def FunctionName(args): {
 def love(args): {
     print('love')
 }
+def faith(args): {
+    print('love')
+}
